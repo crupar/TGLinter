@@ -33,7 +33,7 @@ var PREFIX = [
   'Reconsider'
 ];
 
-/* Map of `cuss` ratings to suffixes. */
+/* Map of `polibias` ratings to suffixes. */
 var SUFFIX = [
   'it’s party leaning in some cases',
   'may be Democratic Party leaning',

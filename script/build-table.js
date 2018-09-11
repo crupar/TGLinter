@@ -2,7 +2,7 @@
 
 var range = require('mdast-util-heading-range');
 var u = require('unist-builder');
-var cuss = require('polibias');
+var polibias = require('polibias');
 
 module.exports = table;
 
@@ -19,7 +19,7 @@ function transformer(tree) {
       ])
     ];
 
-    Object.keys(cuss).forEach(function (phrase) {
+    Object.keys(polibias).forEach(function (phrase) {
       rows.push(u('tableRow', [
         u('tableCell', [u('inlineCode', id(phrase))]),
         u('tableCell', [u('inlineCode', phrase)])

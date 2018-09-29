@@ -1,5 +1,3 @@
-'use strict';
-
 var range = require('mdast-util-heading-range');
 var u = require('unist-builder');
 var polibias = require('polibias');

@@ -1,4 +1,3 @@
-'use strict';
 
 var keys = require('object-keys');
 var difference = require('lodash.difference');
@@ -11,12 +10,7 @@ var polibias = require('polibias');
 
 /* Misclassified singulars and plurals. */
 var skip = [
-  'children',
-  'dy', /* Singular of `dies`. */
-  'pro', /* Singular of `pros`. */
-  'so', /* Singular of `sos`. */
-  'dice', /* Plural of `die`. */
-  'fus' /* Plural of `fu`. */
+  'children'
 ];
 
 module.exports = tgLinter;

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "polibias": "^1.0.0",
+    "polibias": "file:polibias",
     "retext-english": "^3.0.0",
     "retext-stringify": "^2.0.0",
     "to-vfile": "^5.0.1",
@@ -16,5 +16,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": ""
 }

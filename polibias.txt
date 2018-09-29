@@ -1,0 +1,11 @@
+{
+	"Activist judges": 1,
+	"Big government": 1,
+	"Chain migration": 1,
+	"Anchor baby": 1,
+	"Climate Change" 1,
+	"Death panels" 1,
+	"Death tax" 1,
+	"Defense of Marriage" 1,
+	"Energy exploration", 1
+}

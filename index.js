@@ -1,4 +1,3 @@
-
 var keys = require('object-keys');
 var difference = require('lodash.difference');
 var intersection = require('lodash.intersection');
@@ -63,7 +62,7 @@ function tgLinter(options) {
 
       message.ruleId = phrase.replace(/\W+/g, '-');
       message.politicalLeaning = rating;
-      message.source = 'TruthGogglesLinter';
+      message.source = 'tgLinter';
       message.actual = value;
       message.expected = null;
     }

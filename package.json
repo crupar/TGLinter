@@ -16,7 +16,8 @@
     "retext-stringify": "^2.0.0",
     "to-vfile": "^5.0.1",
     "unified": "^7.0.0",
-    "vfile-reporter": "^5.0.0"
+    "vfile-reporter": "^5.0.0",
+    "polibiased": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {

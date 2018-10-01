@@ -22,16 +22,16 @@ var APOSTROPHES = ['hell'];
 
 /* Map of `polibiased` ratings to prefixes. */
 var PREFIX = [
-  'Be careful with',
+  'Reconsider',
   'Reconsider',
   'Reconsider'
 ];
 
 /* Map of `polibiased` ratings to suffixes. */
 var SUFFIX = [
-  'it’s party leaning in some cases',
-  'may be Democratic Party leaning',
-  'may be Republican Party leaning'
+  'it’s a word/phrase that people interpret differently',
+  'gets a gut reaction',
+  'just cause'
 ];
 
 function tgLinter(options) {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "polibiased": "^1.1.0",
+    "polibiased": "^1.2.1",
     "retext-english": "^3.0.0",
     "retext-stringify": "^2.0.0",
     "to-vfile": "^5.0.1",

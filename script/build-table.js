@@ -1,6 +1,6 @@
 var range = require('mdast-util-heading-range');
 var u = require('unist-builder');
-var polibias = require('polibias');
+var polibias = require('polibiased');
 
 module.exports = table;
 

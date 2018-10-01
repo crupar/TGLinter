@@ -6,7 +6,7 @@ var pluralize = require('pluralize');
 var nlcstToString = require('nlcst-to-string');
 var quotation = require('quotation');
 var search = require('nlcst-search');
-var polibias = require('polibias');
+var polibiased = require('polibiased');
 
 /* Misclassified singulars and plurals. */
 var skip = [
@@ -15,19 +15,19 @@ var skip = [
 
 module.exports = tgLinter;
 
-var words = unpack(polibias);
+var words = unpack(polibiased);
 
 /* List of values not to normalize. */
 var APOSTROPHES = ['hell'];
 
-/* Map of `polibias` ratings to prefixes. */
+/* Map of `polibiased` ratings to prefixes. */
 var PREFIX = [
   'Be careful with',
   'Reconsider',
   'Reconsider'
 ];
 
-/* Map of `polibias` ratings to suffixes. */
+/* Map of `polibiased` ratings to suffixes. */
 var SUFFIX = [
   'it’s party leaning in some cases',
   'may be Democratic Party leaning',

@@ -19,7 +19,7 @@ WIP but runs in the command line presently.
 
 4) Change example.txt to whatever you want
 
-5) Run example.txt through node:
+5) Run your example through node:
 
 ```
 	$> node example

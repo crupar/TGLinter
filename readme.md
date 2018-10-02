@@ -1,10 +1,10 @@
-##Truth Goggles Linter
+<h1>Truth Goggles Linter</h1>
 A linter for possibly politically biased words
 
-##Status
+<h2>Status</h2>
 WIP but runs in the command line presently.
 
-##How To Use
+<h2>How To Use</h2>
 
 
 1) You'll need [node](https://nodejs.org/en/)

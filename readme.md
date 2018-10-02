@@ -1,5 +1,5 @@
 <h1>Truth Goggles Linter</h1>
-A linter for possibly politically biased words
+A linter for words and phrases that could be either politically biased or get different gut reactions from groups of people.
 
 <h2>Status</h2>
 WIP but runs in the command line presently.
